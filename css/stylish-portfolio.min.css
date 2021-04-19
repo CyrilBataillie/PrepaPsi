@@ -300,6 +300,32 @@ h6 {
     }
 }
 
+.links-section {
+    padding: 15rem 0;
+    background: linear-gradient(90deg, rgba(255, 255, 255, .1) 0, rgba(255, 255, 255, .1) 100%), url(../img/bg-link.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.links-section h2 {
+    font-size: 3.5rem;
+    font-weight: 500;
+    display: block;
+    max-width: 30rem
+}
+
+.links-section a {
+    color: white;
+    font-weight: 200;
+}
+
+.links-section a:hover {
+    color: #ecb807;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 .map iframe {
     height: 100%;
     width: 100%;
